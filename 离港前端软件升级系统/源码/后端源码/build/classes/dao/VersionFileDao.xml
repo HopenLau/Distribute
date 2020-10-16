@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.VersionFileDao">
+	
+	<!-- 增加一条信息 -->
+	<insert id="addVersionFile" parameterType="VersionFile" keyProperty="id" useGeneratedKeys="true">
+		insert into t_version_file(version_id,f_name,f_size)
+		values(#{versionId},#{fName},#{fSize})
+	</insert>
+	
+	<!--删除一条信息 -->
+	<delete id="deleteVersionFile" parameterType="Long">
+		delete from t_version_file where id =#{id}
+	</delete>
+	
+	<!-- 修改一条数据 -->
+	<update id="updateVersionFile" parameterType="VersionFile">
+		update t_version_file
+		set f_name=#{fName},f_size=#{fSize}
+		where version_id =#{versionId}
+	</update>
+	
+	<!-- 查询所有 -->
+	<select id="getVersionFileDao" parameterType="Map" resultType="VersionFile">
+		select id as id, version_id as versionId,f_name as fName,f_size as fSize from t_version_file
+		<where>
+			<if test="versionId != null">
+				AND version_id = #{versionId}
+			</if>
+		</where>
+	</select>
+
+</mapper>

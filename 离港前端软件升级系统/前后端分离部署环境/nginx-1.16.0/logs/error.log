@@ -1,0 +1,7 @@
+2020/10/13 10:14:20 [emerg] 17596#9580: CreateFile() "D:\Dorian\Èí¼þ±­\nginx-1.16.0/conf/nginx.conf" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page)
+2020/10/13 10:21:33 [emerg] 15864#19144: CreateFile() "D:\Dorian\Èí¼þ±­\nginx-1.16.0/conf/nginx.conf" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page)
+2020/10/13 10:28:41 [emerg] 8384#16112: CreateFile() "D:\Dorian\Èí¼þ±­\nginx-1.16.0/conf/nginx.conf" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page)
+2020/10/13 10:29:50 [emerg] 12240#17304: CreateFile() "D:\Dorian\Èí¼þ±­\nginx-1.16.0/conf/nginx.conf" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page)
+2020/10/13 14:40:37 [emerg] 2280#9476: unexpected "}" in C:\Users\Dorian\Desktop\nginx-1.16.0/conf/nginx.conf:34
+2020/10/13 14:41:24 [emerg] 5884#11740: unexpected "}" in C:\Users\Dorian\Desktop\nginx-1.16.0/conf/nginx.conf:34
+2020/10/13 14:42:08 [emerg] 13288#19232: unknown directive "proxy-pass" in C:\Users\Dorian\Desktop\nginx-1.16.0/conf/nginx.conf:33

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.CounterDao">
+
+	<!-- 增加一条信息 -->
+	<insert id="addCounter" parameterType="Counter" keyProperty="id" useGeneratedKeys="true">
+		insert into t_counter(c_id,c_name,c_ip)
+		values(#{cId},#{name},#{cIp})
+	</insert>
+	
+	<!-- 删除一条信息 -->
+	<delete id="deleteCounter" parameterType="Long">
+		delete from t_counter where id =#{id}
+	</delete>
+	
+	<!-- 修改一条数据 -->
+	<update id="updateCounter" parameterType="Counter">
+		update t_counter
+		set c_name=#{name},c_ip=#{cIp}
+		where id =#{id}
+	</update>
+	
+	<!-- 查询所有 -->
+	<select id="queryAllCounter" resultType="Counter">
+		select id,c_id as cId,c_name as name,c_ip as cIp 
+		from t_counter
+	</select>
+
+</mapper>

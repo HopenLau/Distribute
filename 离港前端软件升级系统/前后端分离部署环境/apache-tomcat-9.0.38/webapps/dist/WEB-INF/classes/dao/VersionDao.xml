@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.VersionDao">
+
+	<!-- 增加一条信息 -->
+	<insert id="addVersion" parameterType="Version" keyProperty="id" useGeneratedKeys="true">
+		insert into t_version(v_name,v_describe,v_number)
+		values(#{name},#{des},#{number})
+	</insert>
+	
+	<!-- 删除一条信息 -->
+	<delete id="deleteVersion" parameterType="Long">
+		delete from t_version where id =#{id}
+	</delete>
+	
+	<!-- 修改一条数据 -->
+	<update id="updateVersion" parameterType="Version">
+		update t_version
+		set v_name=#{name},v_describe=#{des}
+		where v_number =#{number}
+	</update>
+	
+	<!-- 查询所有  安时间顺序倒序排列 -->
+	<select id="queryAllVersion" resultType="Version">
+		select id as id, v_name as name, v_describe as des , v_number as number,v_update as date  
+		from t_version 
+		order by v_update desc
+	</select>
+	
+	<!-- 根据id查询指定信息 -->
+	<select id="getVersionById" parameterType="Long" resultMap="getVersion">
+		SELECT * FROM T_VERSION WHERE id=#{id}
+	</select>
+	
+	<select id="getLastVersion" resultMap="getVersion">
+		SELECT * FROM T_VERSION ORDER BY V_UPDATE DESC LIMIT 1
+	</select>
+	
+	<resultMap id="getVersion" type="Version">
+		<id property="id" column="id" />
+		<result property="name" column="V_NAME" />
+		<result property="des" column="V_DESCRIBE" />
+		<result property="number" column="V_NUMBER" />
+		<result property="date" column="V_UPDATE" />
+	</resultMap>
+</mapper>

@@ -1,0 +1,89 @@
+2020-10-15 01:39:05,751 DEBUG - Starting WinSW in console mode
+2020-10-15 01:39:09,010 DEBUG - Starting WinSW in console mode
+2020-10-15 01:39:09,360 INFO  - Installing the service with id 'node'
+2020-10-15 01:39:09,393 DEBUG - Completed. Exit code is 0
+2020-10-15 01:41:07,733 DEBUG - Starting WinSW in service mode
+2020-10-15 01:41:07,758 INFO  - Starting java -jar node.jar
+2020-10-15 01:41:07,814 INFO  - Started process 5300
+2020-10-15 01:41:07,827 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.DefaultLogAppender
+2020-10-15 01:41:23,703 INFO  - Stopping node
+2020-10-15 01:41:23,704 DEBUG - ProcessKill 5300
+2020-10-15 01:41:23,706 INFO  - Stopping process 5300
+2020-10-15 01:41:28,701 DEBUG - Starting WinSW in service mode
+2020-10-15 01:41:28,719 INFO  - Starting java -jar node.jar
+2020-10-15 01:41:28,739 INFO  - Started process 14788
+2020-10-15 01:41:28,744 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.DefaultLogAppender
+2020-10-15 01:42:16,327 INFO  - Stopping node
+2020-10-15 01:42:16,328 DEBUG - ProcessKill 14788
+2020-10-15 01:42:16,330 INFO  - Stopping process 14788
+2020-10-15 01:43:33,628 DEBUG - Starting WinSW in service mode
+2020-10-15 01:43:33,661 INFO  - Starting java -jar node.jar
+2020-10-15 01:43:33,695 INFO  - Started process 3544
+2020-10-15 01:43:33,702 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.DefaultLogAppender
+2020-10-15 01:44:09,591 INFO  - Stopping node
+2020-10-15 01:44:09,591 DEBUG - ProcessKill 3544
+2020-10-15 01:44:09,594 INFO  - Stopping process 3544
+2020-10-15 01:44:51,006 DEBUG - Starting WinSW in service mode
+2020-10-15 01:44:51,037 INFO  - Starting java -jar node.jar
+2020-10-15 01:44:51,070 INFO  - Started process 2988
+2020-10-15 01:44:51,077 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.DefaultLogAppender
+2020-10-15 01:44:59,332 INFO  - Stopping node
+2020-10-15 01:44:59,333 DEBUG - ProcessKill 2988
+2020-10-15 01:44:59,337 INFO  - Stopping process 2988
+2020-10-15 01:45:39,876 DEBUG - Starting WinSW in service mode
+2020-10-15 01:45:39,907 INFO  - Starting java -jar node.jar
+2020-10-15 01:45:39,953 INFO  - Started process 15552
+2020-10-15 01:45:39,960 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.DefaultLogAppender
+2020-10-15 02:07:25,471 INFO  - Stopping node
+2020-10-15 02:07:25,472 DEBUG - ProcessKill 15552
+2020-10-15 02:07:25,476 INFO  - Stopping process 15552
+2020-10-15 02:07:53,968 DEBUG - Starting WinSW in service mode
+2020-10-15 02:07:54,008 INFO  - Starting java -jar node.jar
+2020-10-15 02:07:54,064 INFO  - Started process 14280
+2020-10-15 02:07:54,081 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.DefaultLogAppender
+2020-10-15 02:07:58,516 INFO  - Stopping node
+2020-10-15 02:07:58,517 DEBUG - ProcessKill 14280
+2020-10-15 02:07:58,520 INFO  - Stopping process 14280
+2020-10-15 02:09:33,619 DEBUG - Starting WinSW in console mode
+2020-10-15 02:09:35,940 DEBUG - Starting WinSW in console mode
+2020-10-15 02:09:36,365 INFO  - Installing the service with id 'node'
+2020-10-15 02:09:36,369 FATAL - Unhandled exception
+System.Exception: Installation failure: Service with id 'node' already exists
+   дк WinSW.Program.<Run>g__Install|2_0(<>c__DisplayClass2_0& )
+   дк WinSW.Program.Run(String[] argsArray, IWinSWConfiguration descriptor)
+   дк WinSW.Program.Main(String[] args)
+2020-10-15 02:09:47,201 DEBUG - Starting WinSW in service mode
+2020-10-15 02:09:47,224 INFO  - Starting java -jar node.jar
+2020-10-15 02:09:47,248 INFO  - Started process 6176
+2020-10-15 02:09:47,254 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.DefaultLogAppender
+2020-10-15 02:10:01,967 INFO  - Stopping node
+2020-10-15 02:10:01,968 DEBUG - ProcessKill 6176
+2020-10-15 02:10:01,970 INFO  - Stopping process 6176
+2020-10-15 02:10:52,053 DEBUG - Starting WinSW in service mode
+2020-10-15 02:10:52,073 INFO  - Starting java -jar node.jar
+2020-10-15 02:10:52,096 INFO  - Started process 13532
+2020-10-15 02:10:52,102 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.DefaultLogAppender
+2020-10-15 02:11:27,386 INFO  - Stopping node
+2020-10-15 02:11:27,386 DEBUG - ProcessKill 13532
+2020-10-15 02:11:27,388 INFO  - Stopping process 13532
+2020-10-15 02:13:11,733 DEBUG - Starting WinSW in service mode
+2020-10-15 02:13:11,752 INFO  - Starting java -jar node.jar
+2020-10-15 02:13:11,772 INFO  - Started process 10496
+2020-10-15 02:13:11,780 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.DefaultLogAppender
+2020-10-15 02:13:20,206 INFO  - Stopping node
+2020-10-15 02:13:20,206 DEBUG - ProcessKill 10496
+2020-10-15 02:13:20,210 INFO  - Stopping process 10496
+2020-10-15 02:14:36,539 DEBUG - Starting WinSW in service mode
+2020-10-15 02:14:36,564 INFO  - Starting java -jar node.jar
+2020-10-15 02:14:36,590 INFO  - Started process 13344
+2020-10-15 02:14:36,597 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.DefaultLogAppender
+2020-10-15 02:14:49,638 INFO  - Stopping node
+2020-10-15 02:14:49,638 DEBUG - ProcessKill 13344
+2020-10-15 02:14:49,640 INFO  - Stopping process 13344
+2020-10-15 02:15:34,832 DEBUG - Starting WinSW in service mode
+2020-10-15 02:15:34,861 INFO  - Starting java -jar node.jar
+2020-10-15 02:15:34,890 INFO  - Started process 17920
+2020-10-15 02:15:34,899 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.DefaultLogAppender
+2020-10-15 02:19:18,118 INFO  - Stopping node
+2020-10-15 02:19:18,134 DEBUG - ProcessKill 17920
+2020-10-15 02:19:18,134 INFO  - Stopping process 17920

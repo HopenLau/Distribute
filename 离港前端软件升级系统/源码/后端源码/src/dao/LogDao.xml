@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.LogDao">
+
+	<!-- 增加一条信息 -->
+	<insert id="addLog" parameterType="Log" keyProperty="id" useGeneratedKeys="true">
+		insert into t_log(who,what)
+		values(#{who},#{what})
+	</insert>
+	
+	<!-- 删除一条信息 -->
+	<delete id="deleteLog" parameterType="Long">
+		delete from t_log where id =#{id}
+	</delete>
+	
+	<!-- 修改一条数据 -->
+	<update id="updateLog" parameterType="Log">
+		update t_log
+		set who=#{who},what=#{what}
+		where id =#{id}
+	</update>
+	
+	<!-- 查询所有,按照时间顺序进行倒序排序 -->
+	<select id="queryAllLog" resultType="Log">
+		select id as id ,who as who ,what as what , `when` as date 
+		from t_log
+		order by `when`  desc
+	</select>
+	
+	
+</mapper>
