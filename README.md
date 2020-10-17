@@ -6,7 +6,7 @@
 
 # 2   总体架构
 
-![img](https://github.com/Dorian1015/Distribute/raw/master/离港前端软件升级系统/Photos/1.jpg)
+![见文件夹离港前端软件升级系统中Photos文件夹中的图1](https://gitee.com/Dorian15/note/blob/master/Photos/1.png)
 
 系统设计秉承“前后端分离/SOA”的总体思想，前端使用Vue/ElementUI作为主要框架技术、Nginx作为HTTP服务器，用来提供静态页面访问服务和反向代理作用；后端则以SSM主流框架技术为主、采用MySQL开源数据库，前后端使用Restful规范交换数据。
 
@@ -14,7 +14,7 @@
 
 **2.1**  **运行原理：**
 
-![img](https://github.com/Dorian1015/Distribute/raw/master/离港前端软件升级系统/Photos/2.jpg)
+![见文件夹离港前端软件升级系统中Photos文件夹中的图1](https://gitee.com/Dorian15/note/blob/master/Photos/2.png)
 
 ​    该系统开发环境是基于：
 
