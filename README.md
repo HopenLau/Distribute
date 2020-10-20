@@ -14,7 +14,7 @@
 
 **2.1**  **运行原理：**
 
-![见文件夹离港前端软件升级系统中Photos文件夹中的图2]()
+![见文件夹离港前端软件升级系统中Photos文件夹中的图2](https://github.com/Dorian1015/Distribute/blob/main/%E7%A6%BB%E6%B8%AF%E5%89%8D%E7%AB%AF%E8%BD%AF%E4%BB%B6%E5%8D%87%E7%BA%A7%E7%B3%BB%E7%BB%9F/Photos/2.png)
 
 ​    该系统开发环境是基于：
 
